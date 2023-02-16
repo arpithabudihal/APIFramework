@@ -129,7 +129,7 @@ class DataUtil:
             print(f'Modifying json file {files_to_modify[i]}')
             self._create_json(files_to_modify[i])
 
-cfg_sheet_name = 'Tax'
-data_sheet_name = 'Tax'
-c =DataUtil(cfg_sheet_name=cfg_sheet_name,data_sheet_name=data_sheet_name)
-c._data_mapper()
+# cfg_sheet_name = 'Tax'
+# data_sheet_name = 'Tax'
+# c =DataUtil(cfg_sheet_name=cfg_sheet_name,data_sheet_name=data_sheet_name)
+# c._data_mapper()
